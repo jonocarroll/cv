@@ -6,16 +6,16 @@ output:
     toc_float: yes
 ---
 
-Johnny Coder
+Jonathan Carroll
 ============
 
 -----------------------------------------------
-1 MyAddress                        
-MyTown 1000                          
-MyCountry                           
-email@example.com
-@twitter_handle
-1800 my-phone-nr
+PO Box 0000                       
+LOCATION, SA                         
+Australia                    
+jono@jcarroll.com.au
+@carroll_jono
+http://github.com/jonocarroll
 -----------------------------------------------
 
 Education
