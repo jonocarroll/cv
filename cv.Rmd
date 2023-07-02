@@ -1,0 +1,207 @@
+---
+title: "Jonathan Carroll, PhD's CV"
+author: Jonathan Carroll, PhD
+date: "`r Sys.Date()`"
+params:
+  pdf_mode:
+    value: false
+# knit: pagedown::chrome_print
+output:
+  pagedown::html_resume:
+    css: ['dd_cv.css', 'resume']
+    self_contained: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+
+library(magrittr) # For the pipe
+source("CV_printing_functions.R")
+
+# Read in all data and initialize a CV printer object
+CV <- create_CV_object(
+  data_location = "https://docs.google.com/spreadsheets/d/1TW39vM5n33KLra0Qcu3wac3_csNmpN6LwhVx1AgFVPY/edit?usp=sharing",  
+  pdf_mode = params$pdf_mode
+)
+
+```
+
+
+```{r}
+# When in pdf export mode the little dots are unaligned, so fix that with some conditional CSS.
+if(params$pdf_mode) {
+    cat("
+<style>
+:root{
+  --decorator-outer-offset-left: -6.5px;
+}
+</style>")
+}
+```
+
+
+Aside
+================================================================================
+
+<!-- Swap image with your preferred logo -->
+![logo](isp_blue.png){width=100%}
+
+
+```{r}
+if(params$pdf_mode){
+  cat("View this CV online with links at jcarroll.com.au/CV")
+} else {
+  cat('<a class="center" href="https://jcarroll.com.au/page/cv_jonathan_carroll">Also available as PDF and HTML at jcarroll.com.au</a>')
+}
+```
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_contact_info()
+```
+
+<br>
+<br>
+
+Language Skills {#skills}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_skill_bars()
+```
+
+
+
+
+
+
+Main
+================================================================================
+
+Jonathan Carroll, PhD {#title}
+--------------------------------------------------------------------------------
+
+```{r}
+# Note the special double pipe so we modify the CV object in place
+CV %<>% print_text_block("intro") 
+```
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('education')
+```
+
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('research_positions')
+```
+
+
+
+Industry Experience {data-icon=briefcase}
+--------------------------------------------------------------------------------
+
+
+::: aside
+```{r}
+CV %<>% print_text_block('industry_experience_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('industry_positions')
+```
+
+<!-- These breaks just force a new page so section doesnt get cut off -->
+
+
+<!-- Teaching Experience {data-icon=chalkboard-teacher} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ::: aside -->
+<!-- ```{r} -->
+<!-- CV %<>% print_text_block('teaching_experience_aside') -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ```{r} -->
+<!-- CV %<>% print_section('teaching_positions') -->
+<!-- ``` -->
+
+
+
+Selected Writings {data-icon=keyboard-o}
+--------------------------------------------------------------------------------
+
+::: aside
+```{r}
+CV %<>% print_text_block('data_science_writing_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('data_science_writings')
+```
+
+
+Selected Software Packages  {data-icon=terminal}
+--------------------------------------------------------------------------------
+
+::: aside
+```{r}
+CV %<>% print_text_block('software_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('about_me_press')
+```
+
+
+<!-- Selected Press  {data-icon=newspaper} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ```{r} -->
+<!-- CV %<>% print_section('by_me_press') -->
+<!-- ``` -->
+
+
+
+Selected Publications {data-icon=book}
+--------------------------------------------------------------------------------
+
+::: aside
+```{r}
+CV %<>% print_text_block('academic_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('academic_articles')
+```
+
+
+
+```{r}
+CV %<>% print_links()
+```
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Last updated on `r Sys.Date()`.
