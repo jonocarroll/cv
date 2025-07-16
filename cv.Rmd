@@ -49,7 +49,7 @@ Aside
 ================================================================================
 
 <!-- Swap image with your preferred logo -->
-![logo](isp_blue.png){width=100%}
+![logo](isp_bluegrey.png){width=100%}
 
 
 ```{r}
@@ -144,6 +144,12 @@ CV %<>% print_section('industry_positions')
 <!-- ``` -->
 
 
+Community {data-icon=users data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('community')
+```
 
 Selected Writings {data-icon=keyboard-o}
 --------------------------------------------------------------------------------
@@ -204,4 +210,4 @@ CV %<>% print_links()
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Last updated on `r Sys.Date()`.
+Last updated `r Sys.Date()`
