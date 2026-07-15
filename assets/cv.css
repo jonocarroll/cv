@@ -1,0 +1,132 @@
+/* ── Reset & base ── */
+body {
+  font-family: "Georgia", serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #111;
+  max-width: 1600px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+a { color: #111; }
+a:hover { color: #444; }
+
+/* ── Header block ── */
+.cv-header {
+  border-bottom: 2px solid #111;
+  padding-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.cv-header h1 {
+  font-size: 2rem;
+  margin: 0 0 0.2rem 0;
+  letter-spacing: 0.03em;
+}
+
+.cv-header .tagline {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.2rem 0 0.6rem 0;
+}
+
+.cv-contact {
+  font-size: 0.85rem;
+  color: #444;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.2rem;
+}
+
+/* ── Section headings ── */
+h2 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid #111;
+  padding-bottom: 2px;
+  margin: 1.4rem 0 0.5rem 0;
+}
+
+/* ── Role entries ── */
+.role {
+  margin-bottom: 0.9rem;
+}
+
+.role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.role-title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.role-dates {
+  font-size: 0.85rem;
+  color: #555;
+  white-space: nowrap;
+}
+
+.role-org {
+  font-style: italic;
+  color: #333;
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.role ul {
+  margin: 0.3rem 0 0 1rem;
+  padding: 0;
+}
+
+.role li {
+  margin-bottom: 0.2rem;
+  font-size: 0.92rem;
+}
+
+/* ── Skills table ── */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 0.2rem 1rem;
+  font-size: 0.92rem;
+}
+
+.skills-grid .label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* ── Publications ── */
+.pub {
+  font-size: 0.88rem;
+  margin-bottom: 0.4rem;
+  padding-left: 1.2rem;
+  text-indent: -1.2rem;
+}
+
+.pub .venue {
+  font-style: italic;
+}
+
+/* ── Book callout ── */
+.book-callout {
+  border-left: 3px solid #111;
+  padding: 0.4rem 0.8rem;
+  margin: 0.6rem 0;
+  background: #f8f8f8;
+  font-size: 0.92rem;
+}
+
+/* ── Print / ATS-safe ── */
+@media print {
+  body { max-width: 100%; margin: 0; padding: 0; font-size: 10pt; }
+  h2 { page-break-after: avoid; }
+  .role { page-break-inside: avoid; }
+}
