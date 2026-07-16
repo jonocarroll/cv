@@ -40,26 +40,22 @@ ORCID: 0000-0002-1404-5264
 
 ## Profile
 
-Quantitative scientist with over a decade of experience applying statistical modelling, data analysis, and research software development across biomedical research, clinical trials, and fisheries science. Author of *Beyond Spreadsheets with R* (Manning Publications, 2018). Specialist in R with production experience across the full analytical pipeline; from data ingestion and curation through modelling, visualisation, and reporting to non-technical audiences.
+Senior quantitative scientist and research software engineer with 10+ years across multi-modal biomedical research, clinical trial analysis, and fisheries science. Experienced in statistical modelling, data analysis, and production analytics pipelines; author of *Beyond Spreadsheets with R*. Specialist in R with production experience across the full analytical pipeline; from data ingestion and curation through modelling, visualisation, and reporting to non-technical audiences.
 
-Extensive experience with clinical trial data standards (ADaM, SDTM), multi-modal biomedical data integration, and survival and longitudinal analyses. Background in translational immunology, genomics, and large-scale epidemiological cohort data (UK Biobank). Comfortable operating independently or leading distributed teams in remote environments since 2017.
+Extensive experience with clinical trial data standards (ADaM, SDTM), multi-modal biomedical data integration, and survival and longitudinal analyses. Background in translational immunology, genomics, and large-scale cohort data (UK Biobank). Comfortable operating independently or leading distributed teams in remote environments since 2017.
 
 ```{=html}
 <div class="book-callout">
-  <strong>Book:</strong> <em>Beyond Spreadsheets with R</em> (Manning Publications, 2018, 352 pp.)
-  A beginner's guide to R and RStudio
-  <a href="https://www.manning.com/books/beyond-spreadsheets-with-r">manning.com</a>
+  <strong>Book:<br /></strong> <a href="https://www.manning.com/books/beyond-spreadsheets-with-r"><em>Beyond Spreadsheets with R</em></a>: A beginner's guide to R and RStudio Manning Publications, 2018, 352 pp.
 </div>
 ```
 
 ```{=latex}
 \smallskip
 \noindent\fbox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{%
-\textbf{Book:} \textit{Beyond Spreadsheets with R} (Manning Publications, 2018, 352\,pp.)
-A beginner's guide to R and RStudio
-\url{https://www.manning.com/books/beyond-spreadsheets-with-r}
+\textbf{Book:} \href{https://www.manning.com/books/beyond-spreadsheets-with-r}{\textit{Beyond Spreadsheets with R}}: A beginner's guide to R and RStudio (Manning Publications, 2018, 352\,pp.)
 }}
-\smallskip
+%\smallskip
 ```
 
 ## Technical Skills
@@ -70,7 +66,7 @@ A beginner's guide to R and RStudio
   <span>GLMs, GAMs, mixed effects models, survival analysis (Kaplan–Meier, Cox PH), longitudinal data analysis, spatiotemporal modelling, DGE/GSEA, likelihood-based inference</span>
 
   <span class="label">Primary language</span>
-  <span>R (base and tidyverse, ggplot2, Bioconductor, shiny, targets, dplyr, data.table, Quarto/R Markdown)</span>
+  <span>R (base and tidyverse, ggplot2, Bioconductor, shiny, targets, dplyr, data.table)</span>
 
   <span class="label">Additional languages</span>
   <span>Python, Rust, Haskell, Julia, SQL, Cypher, Bash, C++, JavaScript, APL, Lisp, Scala</span>
@@ -85,19 +81,19 @@ A beginner's guide to R and RStudio
   <span>Benchling, Sapio LIMS, UK Biobank, genomics pipelines, antibody discovery infrastructure</span>
 
   <span class="label">Reporting &amp; communication</span>
-  <span>R Markdown / Quarto, shiny dashboards, peer-reviewed publications, policy briefings, conference presentations</span>
+  <span>Quarto, shiny dashboards, peer-reviewed publications, conference presentations</span>
 </div>
 ```
 
 ```{=latex}
 \begin{tabularx}{\linewidth}{@{} p{3.8cm} X @{}}
 \textbf{Statistical methods} & GLMs, GAMs, mixed effects models, survival analysis (Kaplan--Meier, Cox PH), longitudinal data analysis, spatiotemporal modelling, DGE/GSEA, likelihood-based inference \\[3pt]
-\textbf{Primary language} & R (base and tidyverse, ggplot2, Bioconductor, shiny, targets, dplyr, data.table, Quarto/R Markdown) \\[3pt]
+\textbf{Primary language} & R (base and tidyverse, ggplot2, Bioconductor, shiny, targets, dplyr, data.table) \\[3pt]
 \textbf{Additional languages} & Python, Rust, Haskell, Julia, SQL, Cypher, Bash, C++, JavaScript, APL, Lisp, Scala \\[3pt]
 \textbf{Data \& infrastructure} & DuckDB, PostgreSQL, SQLite, Redshift, REST APIs, Docker, Git, CI/CD, UNIX/Linux \\[3pt]
 \textbf{Clinical data} & ADaM, SDTM, CDISC; FAIR data principles; MultiAssayExperiment \\[3pt]
 \textbf{Bioinformatics} & Benchling, Sapio LIMS, UK Biobank, genomics pipelines, antibody discovery infrastructure \\[3pt]
-\textbf{Reporting} & R Markdown / Quarto, shiny dashboards, peer-reviewed publications, policy briefings, conference presentations \\
+\textbf{Reporting} & Quarto, shiny dashboards, peer-reviewed publications, conference presentations \\
 \end{tabularx}
 ```
 
@@ -139,7 +135,7 @@ A beginner's guide to R and RStudio
   <ul>
     <li>Led development of a large-scale interactive genomics visualisation platform (R shiny) for life scientists without coding experience; coordinated a distributed team of 10 developers across multiple time zones.</li>
     <li>Platform incorporated DGE, GSEA, Kaplan–Meier survival analyses, volcano plots, t-tests, and laboratory result trend visualisations for clinical trial cohorts.</li>
-    <li>Managed agile delivery, CI/CD pipelines, database design (SQLite/SQL), and Docker-based deployment.</li>
+    <li>Managed agile delivery, devOps, CI/CD pipelines, database design (SQLite/SQL), and Docker-based deployment.</li>
   </ul>
 </div>
 
@@ -179,13 +175,12 @@ A beginner's guide to R and RStudio
     <li>Developed and maintained stock assessment models for South Australian fisheries using GLMs, GAMs, mixed effects models, and custom likelihood-based approaches in C++ (ADMB).</li>
     <li>Conducted spatiotemporal catch rate analyses and geographic information system analyses to characterise population dynamics under environmental covariates (wind, swell).</li>
     <li>Produced annual statistical reports and peer-reviewed publications; provided statistically rigorous briefings with uncertainty quantification to government policymakers to inform quota-setting decisions.</li>
-    <li>Bridged the gap between scientific evidence and fisheries management, translating complex model outputs — including confidence intervals and likelihood profiles — for non-technical audiences including ministers and industry stakeholders.</li>
   </ul>
 </div>
 ```
 
 ```{=latex}
-\subsection*{Senior Research Software Engineer \hfill \normalfont\small 2022 – May 2026}
+\subsubsection*{Senior Research Software Engineer \hfill \normalfont\small 2022 – May 2026}
 \textit{Human Immunology Biosciences (HIBio) \& Biogen}
 \begin{itemize}
   \item Built analytical infrastructure and exploratory dashboards supporting translational science and antibody discovery; connected data across internal systems via REST APIs.
@@ -194,22 +189,22 @@ A beginner's guide to R and RStudio
   \item Managed deployment of GoAnywhere secure file transfer for regulated data exchange.
 \end{itemize}
 
-\subsection*{Research Software Engineer (Contract) \hfill \normalfont\small 2024 – Dec 2025}
+\subsubsection*{Research Software Engineer \hfill \normalfont\small 2024 – Dec 2025}
 \textit{Rancho Biosciences / Roche / Genentech}
 \begin{itemize}
   \item Integrated AI/LLM tooling into R shiny dashboards for exploratory clinical data analysis; prompt engineering for biomedical summarisation tasks.
   \item Data processing and analysis in Redshift; exploration of ADaM and SDTM clinical trial datasets.
 \end{itemize}
 
-\subsection*{Technical Lead / co-Product Owner \hfill \normalfont\small 2021 – 2022}
+\subsubsection*{Technical Lead / co-Product Owner \hfill \normalfont\small 2021 – 2022}
 \textit{Cancer Immunology, Genentech / Roche}
 \begin{itemize}
   \item Led development of a large-scale interactive genomics visualisation platform (R shiny) for life scientists without coding experience; coordinated a distributed team of 10 developers across multiple time zones.
   \item Platform incorporated DGE, GSEA, Kaplan--Meier survival analyses, volcano plots, t-tests, and laboratory result trend visualisations for clinical trial cohorts.
-  \item Managed agile delivery, CI/CD pipelines, database design (SQLite/SQL), and Docker-based deployment.
+  \item Managed agile delivery, devOps, CI/CD pipelines, database design (SQLite/SQL), and Docker-based deployment.
 \end{itemize}
 
-\subsection*{Data Curator / Integrator \& Software Developer \hfill \normalfont\small 2017 – 2022}
+\subsubsection*{Data Curator / Integrator \& Software Developer \hfill \normalfont\small 2017 – 2022}
 \textit{Cancer Immunology, Genentech / Roche}
 \begin{itemize}
   \item Curated and integrated multi-modal high-dimensional data (genomics, proteomics, clinical trial outcomes) from ADaM/SDTM-structured datasets into a FAIRified internal DataMart (MultiAssayExperiment).
@@ -218,20 +213,19 @@ A beginner's guide to R and RStudio
   \item Developed R/Bioconductor tooling and shiny applications; authored reusable packages supporting downstream analytical teams.
 \end{itemize}
 
-\subsection*{Principal Consultant \hfill \normalfont\small 2015 – present}
-\textit{Irregularly Scheduled Programming (ABN: 43\,486\,039\,320)}
-\begin{itemize}
-  \item Independent statistical and data science consulting; selected clients include Gate Biosciences and Lander Analytics.
-  \item Engagements covering R-based analytical pipelines, data infrastructure, visualisation, and reporting.
-\end{itemize}
+% \subsubsection*{Principal Consultant \hfill \normalfont\small 2015 – present}
+% \textit{Irregularly Scheduled Programming (ABN: 43\,486\,039\,320)}
+% \begin{itemize}
+%   \item Independent statistical and data science consulting; selected clients include Gate Biosciences and Lander Analytics.
+%   \item Engagements covering R-based analytical pipelines, data infrastructure, visualisation, and reporting.
+% \end{itemize}
 
-\subsection*{Senior Research Officer / Fisheries Modeller \hfill \normalfont\small 2013 – 2017}
+\subsubsection*{Senior Research Officer / Fisheries Modeller \hfill \normalfont\small 2013 – 2017}
 \textit{South Australian Research and Development Institute (SARDI)}
 \begin{itemize}
   \item Developed and maintained stock assessment models for South Australian fisheries using GLMs, GAMs, mixed effects models, and custom likelihood-based approaches in C++ (ADMB).
   \item Conducted spatiotemporal catch rate analyses and GIS analyses to characterise population dynamics under environmental covariates (wind, swell).
   \item Produced annual statistical reports and peer-reviewed publications; provided statistically rigorous briefings with uncertainty quantification to government policymakers to inform quota-setting decisions.
-  \item Bridged the gap between scientific evidence and fisheries management, translating complex model outputs --- including confidence intervals and likelihood profiles --- for non-technical audiences including ministers and industry stakeholders.
 \end{itemize}
 ```
 
@@ -245,20 +239,18 @@ A beginner's guide to R and RStudio
   </div>
   <div class="role-org">Special Research Centre for the Subatomic Structure of Matter, University of Adelaide</div>
   <ul>
-    <li>Dense matter nuclear astrophysics: equation-of-state modelling for hybrid neutron stars.</li>
+    <li>Dense matter nuclear astrophysics: equation-of-state modelling for hybrid neutron stars via numerical simulation in Fortran with MPI parallelisation.</li>
     <li>Muonic hydrogen spectroscopy and the proton radius puzzle; nonperturbative relativistic quantum mechanical calculations.</li>
-    <li>Numerical simulation in Fortran with MPI parallelisation; statistical analysis of spectroscopic data.</li>
   </ul>
 </div>
 ```
 
 ```{=latex}
-\subsection*{Postdoctoral Research Fellow \hfill \normalfont\small 2009 – 2013}
+\subsubsection*{Postdoctoral Research Fellow \hfill \normalfont\small 2009 – 2013}
 \textit{Special Research Centre for the Subatomic Structure of Matter, University of Adelaide}
 \begin{itemize}
-  \item Dense matter nuclear astrophysics: equation-of-state modelling for hybrid neutron stars.
+  \item Dense matter nuclear astrophysics: equation-of-state modelling for hybrid neutron stars via numerical simulation in Fortran with MPI parallelisation.
   \item Muonic hydrogen spectroscopy and the proton radius puzzle; nonperturbative relativistic quantum mechanical calculations.
-  \item Numerical simulation in Fortran with MPI parallelisation; statistical analysis of spectroscopic data.
 \end{itemize}
 ```
 
@@ -286,11 +278,11 @@ A beginner's guide to R and RStudio
 ```
 
 ```{=latex}
-\subsection*{PhD, Theoretical Physics \hfill \normalfont\small 2006 – 2009}
+\subsubsection*{PhD, Theoretical Physics \hfill \normalfont\small 2006 – 2009}
 \textit{University of Adelaide} \\
 Thesis: \textit{Applications of the Octet Baryon Quark-Meson Coupling Model to Hybrid Stars} --- \href{https://doi.org/10.48550/arXiv.1001.4318}{arXiv:1001.4318}
 
-\subsection*{Bachelor of Science (Honours), Physics \& Theoretical Physics \hfill \normalfont\small 2002 – 2005}
+\subsubsection*{Bachelor of Science (Honours), Physics \& Theoretical Physics \hfill \normalfont\small 2002 – 2005}
 \textit{University of Adelaide}
 ```
 
@@ -298,8 +290,7 @@ Thesis: \textit{Applications of the Octet Baryon Quark-Meson Coupling Model to H
 
 **Book**
 
-Carroll J. (2018). *Beyond Spreadsheets with R*. Manning Publications, 352 pp.
-[manning.com/books/beyond-spreadsheets-with-r](https://www.manning.com/books/beyond-spreadsheets-with-r)
+Carroll J. (2018). [*Beyond Spreadsheets with R*](https://www.manning.com/books/beyond-spreadsheets-with-r). Manning Publications, 352 pp. 
 
 **Peer-reviewed articles** *(selected)*
 
@@ -311,17 +302,13 @@ Genetic variation associated with thyroid autoimmunity shapes the systemic immun
 
 Polygenic risk for skin autoimmunity impacts immune checkpoint blockade in bladder cancer. *PNAS* 117(22), 12288–12294 (2020).
 
-Influence of wind and swell on catch rates in a dive fishery: a case study from the South Australian abalone fishery. *Journal of Shellfish Research* 35(3), 685–694 (2016).
-
-Setting quotas using provisional data: a case study from the South Australian abalone fisheries. *New Zealand Journal of Marine and Freshwater Research* 50(3), 371–388 (2016).
-
-Spawning biomass of jack mackerel off eastern Australia. *Fisheries Research* 179, 10–22 (2016).
+Influence of wind and swell on catch rates in a dive fishery. *Journal of Shellfish Research* 35(3), 685–694 (2016).
 
 Nonperturbative relativistic calculation of the muonic hydrogen spectrum. *Physical Review A* 84(1) (2011).
 
 ## Selected Open-Source Software
 
-**R packages on CRAN / Bioconductor** (author & maintainer unless noted):
+**Published R packages** (author & maintainer unless noted):
 [{ggeasy}](https://cran.r-project.org/package=ggeasy) · [{charcuterie}](https://cran.r-project.org/package=charcuterie) · [{ntfy}](https://cran.r-project.org/package=ntfy) · [{mathpix}](https://cran.r-project.org/package=mathpix) · [{DFplyr}](https://bioconductor.org/packages/release/bioc/html/DFplyr.html) (Bioconductor) · [{benchlingapi}](https://github.com/jonocarroll/benchlingapi) · [{weatherOz}](https://cran.r-project.org/package=weatherOz) (contributor) · [{datapasta}](https://cran.r-project.org/package=datapasta) (contributor)
 
 ## Community & Communication
@@ -329,8 +316,9 @@ Nonperturbative relativistic calculation of the muonic hydrogen spectrum. *Physi
 - **Blog**: Regular technical writing at [jcarroll.com.au](https://jcarroll.com.au) covering R, data analysis, and multi-language programming explorations (R, Rust, Haskell, Julia, APL, and others).
 - **rweekly.org**: Editor — compilation, curation, and editing of the weekly R community newsletter (2016 – present).
 - **Conference presentations**: DataEngBytes and other data science venues.
-- **Chess Club Teacher** (volunteer): Highbury Primary School (2022 – present).
 - **Governing Council**: Highbury Preschool / Highbury Primary / Modbury High (Chair, Vice Chair; 2016 – present).
+- **Chess Club Teacher** (volunteer): Highbury Primary School (2022 – present).
+
 
 ```{r}
 #| echo: false

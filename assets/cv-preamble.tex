@@ -6,23 +6,23 @@
 \usepackage{tabularx}
 \usepackage{array}
 \usepackage{booktabs}
-\usepackage{xcolor}
 
 % Tighter lists
 \setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.2em}
 \setlist[enumerate]{noitemsep, topsep=2pt, leftmargin=1.2em}
 
-% Section heading style
-\titleformat{\section}
-  {\large\bfseries\uppercase}
-  {}{0em}{}
-  [\titlerule]
-\titlespacing{\section}{0pt}{10pt}{4pt}
-
+% Section headings (from ## markdown)
 \titleformat{\subsection}
+  {\large\bfseries}
+  {}{0em}{\MakeUppercase}
+  [\titlerule]
+\titlespacing{\subsection}{0pt}{10pt}{4pt}
+
+% Role titles (from raw latex blocks)
+\titleformat{\subsubsection}
   {\normalsize\bfseries}
   {}{0em}{}
-\titlespacing{\subsection}{0pt}{6pt}{1pt}
+\titlespacing{\subsubsection}{0pt}{6pt}{1pt}
 
 % No paragraph indent
 \setlength{\parindent}{0pt}
