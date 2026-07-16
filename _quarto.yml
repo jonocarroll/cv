@@ -1,0 +1,24 @@
+project:
+  type: default
+  output-dir: docs
+
+format:
+  html:
+    theme: cosmo
+    css: assets/cv.css
+    self-contained: true
+    toc: false
+    number-sections: false
+  pdf:
+    papersize: a4
+    documentclass: article
+    geometry:
+      - top=12mm
+      - bottom=20mm
+      - left=14mm
+      - right=14mm
+    fontsize: 10pt
+    colorlinks: true
+    linkcolor: "black"
+    urlcolor: "black"
+    include-in-header: assets/cv-preamble.tex
