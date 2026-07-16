@@ -2,7 +2,7 @@
 title: ""
 format:
   html:
-    output-file: cv.html
+    output-file: index.html
   pdf:
     output-file: carroll_cv.pdf
 ---
