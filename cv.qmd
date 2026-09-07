@@ -102,6 +102,17 @@ Extensive experience with clinical trial data standards (ADaM, SDTM), multi-moda
 ```{=html}
 <div class="role">
   <div class="role-header">
+    <span class="role-title">Bioinformatics Engineer</span>
+    <span class="role-dates">August 2026 – Current</span>
+  </div>
+  <div class="role-org">The Kids Research Institute</div>
+  <ul>
+    <li>Pipeline generation and maintenance for GWAS and PRS related to lipidomics in indigenous Australian populations</li>
+  </ul>
+</div>
+
+<div class="role">
+  <div class="role-header">
     <span class="role-title">Senior Research Software Engineer</span>
     <span class="role-dates">2022 – May 2026</span>
   </div>
@@ -180,6 +191,12 @@ Extensive experience with clinical trial data standards (ADaM, SDTM), multi-moda
 ```
 
 ```{=latex}
+\subsubsection*{Bioinformatics Engineer \hfill \normalfont\small August 2026 – Current}
+\textit{The Kids Research Institute}
+\begin{itemize}
+  \item Pipeline generation and maintenance for GWAS and PRS related to lipidomics in indigenous Australian populations
+\end{itemize}
+
 \subsubsection*{Senior Research Software Engineer \hfill \normalfont\small 2022 – May 2026}
 \textit{Human Immunology Biosciences (HIBio) \& Biogen}
 \begin{itemize}
